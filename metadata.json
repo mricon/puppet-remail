@@ -1,0 +1,45 @@
+{
+  "name": "mricon-remail",
+  "version": "0.1.0",
+  "author": "mricon",
+  "summary": "A simplistic but powerfull crypted mailing list tool set",
+  "license": "Apache-2.0",
+  "source": "https://github.com/mricon/puppet-remail",
+  "project_page": "https://github.com/mricon/puppet-remail",
+  "issues_url": "https://github.com/mricon/puppet-remail/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [ "7.0" ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "7.0" ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name":"puppetlabs-vcsrepo",
+      "version_requirement":">=1.0.0 <2.0.0"
+    },
+    {
+      "name":"puppetlabs-git",
+      "version_requirement":">=0.1.0 <1.0.0"
+    },
+    {
+      "name":"stankevich-python",
+      "version_requirement":">=1.11.0 <2.0.0"
+    },
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">=4.0.0 <5.0.0"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.0.0 <5.0.0"
+    }
+  ]
+}
+
